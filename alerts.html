@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Bootstrap 4.0 - Alerts</title>
+		<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<link href="style.css" rel="stylesheet">
+		<link href="bootstrap.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="container-fluid">
+			<header>
+		    	<!-- Fixed navbar -->
+		    	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+		        	<a class="navbar-brand" href="#">Fixed navbar</a>
+		        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		          		<span class="navbar-toggler-icon"></span>
+		        	</button>
+		        	<div class="collapse navbar-collapse" id="navbarCollapse">
+		          		<ul class="navbar-nav mr-auto">
+		            		<li class="nav-item active">
+		              			<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+		            		</li>
+		            		<li class="nav-item">
+		              			<a class="nav-link" href="carousel.html">Carousel</a>
+		            		</li>
+		            		<li class="nav-item">
+		              			<a class="nav-link" href="forms.html">Forms</a>
+		            		</li>
+		            		<li class="nav-item">
+		              			<a class="nav-link" href="modals.html">Modals</a>
+		            		</li>
+		            		<li class="nav-item">
+		              			<a class="nav-link disabled" href="#">Disabled</a>
+		            		</li>
+		          		</ul>
+		          		<form class="form-inline mt-2 mt-md-0">
+		            		<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+		            		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		          		</form>
+		        	</div><!-- end collapse nav-->
+		      	</nav>
+		    </header>
+		</div><!-- end of container-fluid-->
+
+		<div class="container">
+			<div class="alert alert-primary" role="alert">This is a primary alert—check it out!</div>
+			<div class="alert alert-secondary" role="alert">This is a secondary alert—check it out!</div>
+
+			<div class="alert alert-success" role="alert">
+  				This is a success alert with <a href="index.html" class="alert-link">an example link</a>. Give it a click if you like.
+			</div>
+			<div class="alert alert-danger" role="alert">
+  				This is a danger alert with <a href="alerts.html" class="alert-link">an example link</a>. Give it a click if you like.
+			</div>
+
+			<div class="alert alert-success" role="alert">
+  				<h4 class="alert-heading">Well done!</h4>
+  				<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  				<hr>
+  				<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+			</div>
+
+			<div class="alert alert-warning alert-dismissible fade show" role="alert">
+				<strong>Holy guacamole!</strong> You should check in on some of those fields below.
+			  	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			    	<span aria-hidden="true">&times;</span>
+			  	</button>
+			</div>
+		</div><!-- end of container-->
+
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+
+
+</html>
